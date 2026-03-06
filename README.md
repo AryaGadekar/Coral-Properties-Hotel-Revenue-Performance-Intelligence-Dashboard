@@ -31,3 +31,7 @@ The goal of this analysis was to move beyond basic reporting and identify **oper
 
 # Coral-Properties-Hotel-Revenue-Performance-Intelligence-Dashboard
 Power BI hospitality analytics dashboard analyzing revenue performance, occupancy trends, RevPAR, ADR, and booking platform efficiency.
+
+<p align="center">
+  <img src="Images/Coral Properties Hotel Revenue & Performance Intelligence Dashboard.png" width="900">
+</p>

@@ -35,7 +35,7 @@ Power BI hospitality analytics dashboard analyzing revenue performance, occupanc
 ## Dashboard Preview
 
 <p align="center">
-  <img src="images/coral_properties_dashboard.png" width="900"/>
+  <img src="images/coral Dashboard.png" width="900"/>
 </p>
 
 *Figure 1. Coral Properties Hotel Revenue & Performance Intelligence Dashboard built in Power BI. The dashboard consolidates portfolio revenue performance, booking platform efficiency, property benchmarking, and demand trends to support revenue management decisions.*

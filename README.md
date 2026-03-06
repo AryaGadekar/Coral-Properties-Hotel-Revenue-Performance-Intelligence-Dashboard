@@ -302,3 +302,142 @@ Across the Coral Properties portfolio, several structural patterns emerge:
 - Significant opportunity exists to **increase revenue through improved capacity utilization**
 
 Together, these insights provide a foundation for **data-driven revenue management strategies across the hotel portfolio.**
+
+## Strategic Recommendations & Performance Metrics
+
+Here’s the thing: insights are only useful when someone turns them into measurable work. Below are the priority plays for Coral Properties, each with short, actionable steps and the KPIs you should instrument from day one.
+
+---
+
+### 1) Improve weekday demand
+
+#### Why
+Weekends lift the portfolio while weekdays leave capacity idle. Raising midweek occupancy raises baseline RevPAR and smooths volatility.
+
+#### Actions
+- Run three weekday acquisition pilots focused on corporate travel and extended stays.
+- Launch limited-time weekday packages and test placement in-app and on partner channels.
+- Create low-cost weekday promos tied to local corporates and conference calendars.
+
+#### KPIs
+- **Weekday occupancy %** — booked rooms divided by sellable rooms on Mon–Thu. Target: +5 to 10% in pilots.
+- **Weekday RevPAR** — revenue divided by sellable rooms for Mon–Thu. Use as primary revenue impact metric.
+- **Orders per outlet (weekday)** — weekly bookings per property on weekdays.
+
+---
+
+### 2) Optimize channel mix
+
+#### Why
+Different platforms drive different value. Rebalance visibility and spend to favor channels that deliver higher realized revenue.
+
+#### Actions
+- Reallocate promotional budget toward platforms with stronger realisation %.
+- Negotiate listing or fee terms with high-volume platforms that under-realise.
+- Run A/B tests for platform-specific packaging and cancellation rules.
+
+#### KPIs
+- **Realisation % by platform** — revenue realized divided by revenue generated.
+- **ADR by platform** — realized revenue divided by bookings.
+- **Booking volume and CAC by platform** — to monitor acquisition efficiency.
+
+---
+
+### 3) Replicate best property practices
+
+#### Why
+Top properties combine demand capture and effective pricing. Systematize those practices so new or weaker properties scale faster.
+
+#### Actions
+- Document an operational playbook from top-performing properties covering assortment, launch cadence, and pricing rules.
+- Run three 90-day replication pilots and iterate weekly.
+- Bake successful playbook items into the standard roll-out checklist for new openings.
+
+#### KPIs
+- **RevPAR variance across properties** — aim to reduce standard deviation.
+- **Occupancy improvement at pilot sites** — percentage point change vs baseline.
+- **Time to positive payback for new outlets.**
+
+---
+
+### 4) Prioritize medium-format Tier 3 expansion
+
+#### Why
+Medium-format outlets in Tier 3 markets show the best unit economics in the data. Focus capital where the unit economics prove out.
+
+#### Actions
+- Build a Tier 3 cluster playbook with a repeatable medium-format layout.
+- Run market-level ROI screens and a small cluster pilot before greenlighting openings.
+
+#### KPIs
+- **Revenue per outlet (tier adjusted).**
+- **New outlet payback period.**
+- **Orders per outlet.**
+
+---
+
+### 5) Protect and scale core categories
+
+#### Why
+A handful of categories anchor daily revenue. Zero stockouts and prioritized visibility protect the revenue base.
+
+#### Actions
+- Enforce zero-stockout SLAs for top 20 SKUs.
+- Reallocate promotion spend to high-frequency categories like fruits and snack foods.
+- Pilot bundles or private label for top SKUs.
+
+#### KPIs
+- **Stockout rate for top SKUs. Target: <3%.**
+- **Category revenue concentration ratio:** percent of revenue from top 3 categories.
+- **Weekly sales volatility for core categories.**
+
+---
+
+### 6) Shift focus to order volume, not basket size
+
+#### Why
+Growth historically came from more orders, not larger baskets. Frequency is the lever that scales sustainably.
+
+#### Actions
+- Make Orders per Outlet a primary KPI and instrument it daily.
+- Run lightweight retention nudges and repeat-purchase campaigns.
+- Measure CAC per retained order and optimize channel spend accordingly.
+
+#### KPIs
+- **Orders per outlet (weekly).**
+- **Repeat purchase rate over 90 days.**
+- **CAC per retained order.**
+
+---
+
+### 7) Upgrade data instrumentation & reporting
+
+#### Why
+Missing timestamps and customer identifiers prevent cohort, retention, and margin analysis. Better data unlocks long-term strategy.
+
+#### Actions
+- Add `transaction_date`, `order_id`, and `customer_id` to ingestion.
+- Capture refunds, discounts, and margin fields.
+- Implement a star schema and automate weekly KPI reports.
+
+#### KPIs
+- **Instrumentation coverage:** percent of transactions with `customer_id` and timestamp.
+- **Time to baseline retention:** weeks until first cohort metrics are available.
+- **Percent of reports sourced from star schema.**
+
+---
+
+### 8) Run structured experiments and governance
+
+#### Why
+Controlled tests prove what actually scales. Make pilots the default, require decision gates, and measure lift before scaling.
+
+#### Actions
+- Design holdout test/control experiments for category pilots and promotional changes.
+- Define minimum detectable effect and decision gates for rollouts.
+- Maintain a dashboard of active experiments and outcomes.
+
+#### KPIs
+- **Percent of initiatives run as controlled experiments.**
+- **Percent of pilots that meet statistical thresholds before scaling.**
+- **Incremental revenue lift vs control.**

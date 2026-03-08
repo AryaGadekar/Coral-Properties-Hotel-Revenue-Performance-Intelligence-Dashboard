@@ -135,6 +135,50 @@ Before building the dashboard and performing analysis, several validation checks
 
 These validation steps ensure that the dataset is reliable for analyzing **hotel revenue performance, booking behavior, and operational efficiency** across the Coral Properties portfolio.
 
+## 12. Power BI Data Model
+
+The dashboard is built using a **star schema data model** in Power BI. This structure separates transactional data from descriptive dimensions, enabling efficient filtering, aggregation, and KPI calculations across the Coral Properties portfolio.
+
+<p align="center">
+  <img src="images/powerbi-data-model.png" width="900">
+</p>
+
+### Fact Tables
+
+| Table | Description |
+|------|-------------|
+| `fact_bookings` | Primary transactional dataset containing booking-level details such as booking date, booking platform, booking status, check-in and check-out dates, number of guests, property ID, ratings given, and revenue metrics. This table is used to calculate revenue-based KPIs such as ADR, RevPAR, and Realisation %. |
+| `fact_aggregated_bookings` | Aggregated operational dataset containing daily property-level metrics including capacity and successful bookings. This table supports occupancy and room utilization analysis across the hotel portfolio. |
+
+### Dimension Tables
+
+| Table | Description |
+|------|-------------|
+| `dim_date` | Calendar dimension used for time-based analysis. Includes attributes such as date, week number, month-year, and day type (weekday vs weekend). |
+| `dim_hotels` | Contains property-level information including property ID, property name, city, and hotel category. |
+| `dim_rooms` | Contains room-level attributes including room category and room ID used to segment performance by room type. |
+
+### Relationships
+
+The data model connects fact tables with dimension tables using **one-to-many relationships**, enabling analysis across multiple business dimensions.
+
+| Relationship | Purpose |
+|--------------|---------|
+| `dim_date → fact_bookings` | Enables time-based analysis of booking transactions. |
+| `dim_date → fact_aggregated_bookings` | Supports daily occupancy and capacity trend analysis. |
+| `dim_hotels → fact_bookings` | Links bookings to property-level information such as city and hotel category. |
+| `dim_hotels → fact_aggregated_bookings` | Enables property-level operational performance analysis. |
+| `dim_rooms → fact_bookings` | Allows segmentation of booking performance by room category. |
+| `dim_rooms → fact_aggregated_bookings` | Supports room-level occupancy and capacity analysis. |
+
+### Measures Table
+
+The model also includes a **dedicated measures table (`Key_Measure`)** that stores calculated DAX metrics such as ADR and other key hospitality KPIs used across the dashboard. This approach helps organize calculations and keeps the data model clean and maintainable.
+
+---
+
+This data model enables efficient analysis of hotel performance across **time, property, room category, and booking platform dimensions**, supporting revenue management insights such as **RevPAR trends, booking platform efficiency, property benchmarking, and capacity utilization analysis**.
+
 8. Executive Summary
 
 This is the high-level story.

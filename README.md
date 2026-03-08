@@ -441,3 +441,120 @@ Controlled tests prove what actually scales. Make pilots the default, require de
 - **Percent of initiatives run as controlled experiments.**
 - **Percent of pilots that meet statistical thresholds before scaling.**
 - **Incremental revenue lift vs control.**
+
+## 11. Tools & Methods
+
+This project was built using a focused business intelligence stack to transform raw booking data into actionable hotel revenue insights.
+
+### Power BI
+Power BI was used as the primary analytics and visualization tool. It was used to build the dashboard, create the data model, and develop interactive visuals for revenue trends, property benchmarking, booking platform performance, and capacity utilization.
+
+### Excel
+Excel was used for initial data exploration, validation, and preparation before importing the datasets into Power BI. Pivot tables were used to verify revenue totals, booking counts, and create supporting calculations for some visualizations.
+
+### DAX (Data Analysis Expressions)
+DAX was used in Power BI to calculate the key hospitality KPIs used in the dashboard.
+
+Core metrics implemented include:
+
+- **Revenue** – Total realized booking revenue  
+- **ADR (Average Daily Rate)** – Revenue per booked room  
+- **RevPAR (Revenue per Available Room)** – Revenue per available room night  
+- **Occupancy %** – Booked rooms divided by total available rooms  
+- **Realisation %** – Ratio of realized revenue to generated revenue  
+- **DSRN (Daily Sellable Room Nights)** – Total room inventory available per day  
+- **DBRN (Daily Booked Room Nights)** – Total booked room nights per day  
+- **DURN (Daily Utilized Room Nights)** – Total occupied room nights per day  
+
+## 12. Assumptions & Limitations
+
+Like most analytical projects built from operational datasets, this analysis includes a few assumptions and limitations that influence the scope of insights. Documenting these helps provide transparency around how the results should be interpreted.
+
+### Assumptions
+
+- **Revenue is treated as gross revenue.**  
+  The dataset does not include cost, commission, or margin information. All revenue calculations therefore represent gross booking revenue rather than net profit.
+
+- **Capacity values represent total sellable room nights.**  
+  The `capacity` field from the aggregated dataset is assumed to represent the number of rooms available for sale each day.
+
+- **Booking status reflects actual room utilization.**  
+  Successful bookings and check-outs are treated as indicators of actual room utilization when calculating occupancy and utilization metrics.
+
+- **Calendar data is assumed to be complete.**  
+  The `dim_date` table is assumed to contain all dates required for accurate time-based analysis.
+
+### Limitations
+
+- **No customer-level identifiers available.**  
+  The dataset does not include customer IDs, which prevents analysis of customer behavior, repeat booking patterns, or customer lifetime value.
+
+- **Limited cancellation context.**  
+  While cancellation and no-show statuses exist, the dataset does not include detailed information about cancellation timing or reasons.
+
+- **No cost or profitability data.**  
+  Without operational costs, marketing spend, or platform commissions, the analysis focuses strictly on revenue performance rather than profitability.
+
+- **Limited geographic context.**  
+  While properties are identified, the dataset does not provide deeper location attributes such as market demand conditions or competitive pricing benchmarks.
+
+- **Static dataset timeframe.**  
+  The data represents a limited time window, which restricts long-term trend analysis and seasonality modeling.
+
+Despite these limitations, the dataset provides sufficient information to evaluate **portfolio-level revenue performance, booking channel efficiency, property benchmarking, and capacity utilization trends** across the Coral Properties hotel network.
+
+## 13. Next Steps
+
+This project establishes a foundational revenue intelligence framework for analyzing hotel portfolio performance. Future improvements could extend the analytical depth and support more advanced decision-making capabilities.
+
+### Customer-Level Behavioral Analysis
+The current dataset focuses on booking-level transactions and property performance. Introducing customer-level identifiers would enable deeper analysis of guest behavior and demand patterns.
+
+Potential future analysis includes:
+- Customer retention and repeat booking behavior
+- Customer lifetime value (CLV) analysis
+- Segmentation of guests by travel patterns or booking channels
+
+---
+
+### Demand Forecasting and Revenue Optimization
+The current analysis evaluates historical performance but does not include predictive modeling. Incorporating forecasting techniques would help improve pricing strategies and inventory management.
+
+Future enhancements could include:
+- Time-series forecasting for occupancy and RevPAR
+- Demand prediction models for peak and off-peak periods
+- Dynamic pricing simulations based on demand projections
+
+---
+
+### Cancellation and No-Show Analysis
+Although the dataset contains cancellation and no-show indicators, deeper analysis could provide insights into booking reliability and operational planning.
+
+Future work could focus on:
+- Identifying cancellation patterns across booking platforms
+- Evaluating the financial impact of cancellations and no-shows
+- Developing strategies to reduce last-minute cancellations
+
+---
+
+### Advanced Channel Performance Analysis
+Further exploration of booking platform performance could improve distribution strategies.
+
+Future analysis may include:
+- Platform-level profitability analysis including commission costs
+- Customer acquisition cost by booking channel
+- Channel-specific demand forecasting
+
+---
+
+### Operational Performance Dashboards
+The current dashboard focuses primarily on revenue performance. Future dashboards could expand into broader operational metrics.
+
+Potential additions include:
+- Property-level performance monitoring dashboards
+- Real-time occupancy and booking trend tracking
+- Automated KPI alerts for revenue management teams
+
+---
+
+By extending the analysis in these directions, the dashboard could evolve from a **descriptive analytics tool into a predictive and strategic decision-support system for hotel revenue management.**

@@ -274,10 +274,8 @@ This suggests that future revenue optimization efforts should focus on **increas
 
 ### Insight 2 — Booking Platform Efficiency
 
-### Insight 2 — Booking Platform Efficiency
-
 <p align="center">
-  <img src="images/booking-platform-efficiency.png" width="700">
+  <img src="images/booking-platform-efficiency.png" width="600">
 </p>
 
 *Figure 2. ADR and Realisation % by booking platform. The chart highlights differences in pricing power and revenue capture efficiency across distribution channels.*

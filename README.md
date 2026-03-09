@@ -255,8 +255,6 @@ This section presents the core analytical insights derived from the Coral Proper
 Figure 1. Weekly trend of RevPAR, ADR, and Occupancy across the Coral Properties portfolio.  
 ADR remains relatively stable while RevPAR fluctuates with occupancy, indicating that revenue performance is primarily driven by demand rather than pricing adjustments.
 
-This chart analyzes how the three key hospitality KPIs — **RevPAR, ADR, and Occupancy** — evolve.
-
 The visualization reveals that **ADR remains relatively stable across weeks**, indicating disciplined pricing strategies across the hotel portfolio. However, **RevPAR fluctuations closely follow occupancy trends**, suggesting that changes in revenue are primarily driven by **variations in booking demand rather than pricing adjustments**.
 
 Periods of lower occupancy correspond directly with drops in RevPAR, highlighting the impact of demand volatility on revenue performance.
@@ -276,11 +274,13 @@ This suggests that future revenue optimization efforts should focus on **increas
 
 ### Insight 2 — Booking Platform Efficiency
 
-![Booking Platform Efficiency](images/channel_efficiency.png)
+### Insight 2 — Booking Platform Efficiency
 
-**Figure 2. ADR vs Realisation % by booking platform**
+<p align="center">
+  <img src="images/booking-platform-efficiency.png" width="700">
+</p>
 
-This visualization evaluates the performance of different booking channels by comparing **Average Daily Rate (ADR)** with **Realisation %**.
+*Figure 2. ADR and Realisation % by booking platform. The chart highlights differences in pricing power and revenue capture efficiency across distribution channels.*
 
 Different booking platforms demonstrate varying levels of pricing power and revenue efficiency. Some channels generate **higher ADR values but lower realization rates**, indicating higher commissions or promotional discounts. Others show **higher realization rates but lower ADR**, suggesting higher booking volume but lower pricing power.
 

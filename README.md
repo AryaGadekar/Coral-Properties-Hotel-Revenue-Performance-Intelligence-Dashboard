@@ -595,7 +595,7 @@ Like most analytical projects built from operational datasets, this analysis inc
 
 Despite these limitations, the dataset provides sufficient information to evaluate **portfolio-level revenue performance, booking channel efficiency, property benchmarking, and capacity utilization trends** across the Coral Properties hotel network.
 
-## 13. Next Steps
+## Next Steps
 
 This project focuses on descriptive analytics to understand hotel revenue performance, booking platform efficiency, and property-level benchmarking. Several opportunities exist to extend this analysis into more advanced revenue management and predictive analytics capabilities.
 

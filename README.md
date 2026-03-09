@@ -248,7 +248,9 @@ This section presents the core analytical insights derived from the Coral Proper
 
 ### Insight 1 — Weekly Revenue Trends
 
-![Weekly Revenue Trends](images/Trends%20by%20key%20Metrics.png)
+<p align="center">
+  <img src="images/weekly-trends.png" width="600">
+</p>
 
 Figure 1. Weekly trend of RevPAR, ADR, and Occupancy across the Coral Properties portfolio.  
 ADR remains relatively stable while RevPAR fluctuates with occupancy, indicating that revenue performance is primarily driven by demand rather than pricing adjustments.

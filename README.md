@@ -595,58 +595,96 @@ Like most analytical projects built from operational datasets, this analysis inc
 
 Despite these limitations, the dataset provides sufficient information to evaluate **portfolio-level revenue performance, booking channel efficiency, property benchmarking, and capacity utilization trends** across the Coral Properties hotel network.
 
-## Next Steps
+## 13. Next Steps
 
-This project establishes a foundational revenue intelligence framework for analyzing hotel portfolio performance. Future improvements could extend the analytical depth and support more advanced decision-making capabilities.
+This project focuses on descriptive analytics to understand hotel revenue performance, booking platform efficiency, and property-level benchmarking. Several opportunities exist to extend this analysis into more advanced revenue management and predictive analytics capabilities.
 
-### Customer-Level Behavioral Analysis
-The current dataset focuses on booking-level transactions and property performance. Introducing customer-level identifiers would enable deeper analysis of guest behavior and demand patterns.
+### Implement Dynamic Pricing Based on Demand
 
-Potential future analysis includes:
-- Customer retention and repeat booking behavior
-- Customer lifetime value (CLV) analysis
-- Segmentation of guests by travel patterns or booking channels
+The current dataset suggests that room prices remain largely consistent across **weekdays, weekends, and different months**, even though demand levels fluctuate across these periods.
+
+Future analysis could introduce **demand-based pricing strategies** where room rates adjust dynamically according to demand and room availability. This would allow hotels to increase prices during high-demand periods such as weekends or peak travel seasons, while using targeted discounts during low-demand periods to improve occupancy.
+
+Potential analysis could include:
+
+- Identifying **high-demand periods** using occupancy and booking trends
+- Evaluating the relationship between **ADR, occupancy, and RevPAR**
+- Simulating pricing scenarios to maximize revenue during peak demand
+- Introducing **seasonal pricing models** based on monthly demand patterns
+
+Implementing **dynamic pricing strategies** could significantly improve overall portfolio revenue and RevPAR.
 
 ---
 
-### Demand Forecasting and Revenue Optimization
-The current analysis evaluates historical performance but does not include predictive modeling. Incorporating forecasting techniques would help improve pricing strategies and inventory management.
+### Customer-Level Behavioral Analysis
+
+The current dataset does not include customer-level identifiers. Adding customer information would enable deeper insights into guest behavior and booking patterns.
 
 Future enhancements could include:
-- Time-series forecasting for occupancy and RevPAR
-- Demand prediction models for peak and off-peak periods
-- Dynamic pricing simulations based on demand projections
+
+- Customer retention and repeat booking analysis
+- Customer segmentation based on booking behavior
+- Customer lifetime value (CLV) analysis
+- Loyalty program effectiveness evaluation
+
+This would allow hotels to better understand **guest preferences and long-term demand drivers**.
+
+---
+
+### Demand Forecasting Models
+
+The current analysis focuses on historical performance. Future work could incorporate **forecasting models** to predict future demand and support revenue management strategies.
+
+Possible forecasting approaches include:
+
+- Time-series forecasting for **occupancy and RevPAR**
+- Predicting seasonal demand fluctuations
+- Forecasting booking volumes by property or room category
+- Supporting pricing decisions using demand projections
+
+This would allow hotel managers to **anticipate demand changes and optimize inventory allocation**.
 
 ---
 
 ### Cancellation and No-Show Analysis
-Although the dataset contains cancellation and no-show indicators, deeper analysis could provide insights into booking reliability and operational planning.
 
-Future work could focus on:
-- Identifying cancellation patterns across booking platforms
-- Evaluating the financial impact of cancellations and no-shows
+Although cancellation and booking status fields exist in the dataset, deeper analysis of cancellation behavior could provide important operational insights.
+
+Future analysis could explore:
+
+- Cancellation trends across booking platforms
+- Impact of cancellations on revenue performance
+- Identifying high-risk booking channels
 - Developing strategies to reduce last-minute cancellations
+
+This would improve **revenue predictability and operational planning**.
 
 ---
 
 ### Advanced Channel Performance Analysis
-Further exploration of booking platform performance could improve distribution strategies.
 
-Future analysis may include:
-- Platform-level profitability analysis including commission costs
-- Customer acquisition cost by booking channel
-- Channel-specific demand forecasting
+The current dashboard compares booking platforms using revenue and realization metrics. Future analysis could extend this by incorporating **cost and commission structures**.
+
+Potential improvements include:
+
+- Platform-level profitability analysis
+- Customer acquisition cost by booking platform
+- Revenue contribution vs commission fees
+- Channel-specific pricing strategies
+
+This would support **more efficient distribution channel management**.
 
 ---
 
-### Operational Performance Dashboards
-The current dashboard focuses primarily on revenue performance. Future dashboards could expand into broader operational metrics.
+### Expanded Operational Performance Monitoring
 
-Potential additions include:
+Future dashboards could extend beyond revenue analytics to include broader operational metrics.
+
+Examples include:
+
 - Property-level performance monitoring dashboards
-- Real-time occupancy and booking trend tracking
-- Automated KPI alerts for revenue management teams
+- Real-time booking and occupancy tracking
+- Automated alerts for declining occupancy or revenue trends
+- Integration with external demand indicators such as seasonal travel trends
 
----
-
-By extending the analysis in these directions, the dashboard could evolve from a **descriptive analytics tool into a predictive and strategic decision-support system for hotel revenue management.**
+These enhancements would transform the dashboard from a **descriptive analytics tool into a comprehensive revenue management decision-support system**.

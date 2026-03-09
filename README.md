@@ -115,10 +115,10 @@ The data model follows a **star schema structure**, where booking and operationa
 | Table | Description |
 |------|------|
 | **fact_bookings** | Transaction-level booking dataset containing booking status, revenue generated, revenue realized, booking platform, and property references. |
-| **fact_aggregated_bookings** | Aggregated daily operational metrics including room capacity and successful bookings for each property. |
+| **fact_aggregated_bookings** | Aggregated daily operational metrics, including room capacity and successful bookings for each property. |
 | **dim_hotels** | Dimension table containing hotel property information such as property name, city, and category. |
 | **dim_rooms** | Dimension table defining room categories and room classification details. |
-| **dim_date** | Calendar dimension used for time-based analysis including week numbers and day type (weekday/weekend). |
+| **dim_date** | Calendar dimension used for time-based analysis, including week numbers and day type (weekday/weekend). |
 
 ### Data Validation
 
@@ -322,7 +322,7 @@ Understanding what drives success in top-performing properties can help replicat
 
 ---
 
-### Insight 4 — Revenue Concentration
+### Insight 4 — Revenue Concentration Analysis
 
 ![Revenue Pareto](images/revenue_pareto.png)
 
@@ -380,6 +380,28 @@ Two operational gaps emerge:
 Improving booking conversion rates and reducing cancellations can significantly increase revenue without expanding room inventory.
 
 This insight highlights that **capacity optimization may be more impactful than physical expansion**.
+
+## Insight 6. Weekday vs Weekend Demand Pattern
+
+![Weekday vs Weekend](images/weekday-weekend.png)
+
+*Figure 6. Comparison of RevPAR, ADR, and Occupancy across weekdays and weekends.*
+
+This chart compares key revenue metrics across weekday and weekend periods.
+
+The analysis shows that **weekend performance consistently exceeds weekday performance**, with higher ADR and stronger occupancy levels.
+
+This pattern reflects stronger leisure demand during weekends.
+
+### Business Interpretation
+
+Key insights include:
+
+- Weekend demand drives higher revenue performance.
+- Weekday demand remains relatively underutilized.
+- Targeted weekday promotions or corporate partnerships could improve occupancy.
+
+Closing the weekday demand gap would significantly improve **portfolio RevPAR without increasing inventory capacity**.
 
 ---
 

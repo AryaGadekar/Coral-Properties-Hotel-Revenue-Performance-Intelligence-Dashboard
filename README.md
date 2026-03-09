@@ -142,7 +142,7 @@ The dashboard is built using a **star schema data model** in Power BI. This mode
 A star schema improves performance and simplifies analytical queries by keeping the central transactional tables connected to surrounding descriptive tables such as property, room category, and date.
 
 <p align="center">
-  <img src="images/powerbi-data-model.png" width="900">
+  <img src="images/Data Model.png" width="700">
 </p>
 
 This structure allows analysts and decision makers to explore performance metrics across **time, property, room type, and booking platform dimensions** while maintaining a scalable and maintainable BI architecture.

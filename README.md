@@ -248,11 +248,14 @@ This section presents the core analytical insights derived from the Coral Proper
 
 ### Insight 1 — Weekly Revenue Trends
 
-![Weekly Revenue Trends](images/weekly_trends.png)
+### Insight 1 — Weekly Revenue Trends
 
-**Figure 1. Weekly trend of RevPAR, ADR, and Occupancy**
+![Weekly Revenue Trends](images/Trends by key Metrics.png)
 
-This chart analyzes how the three key hospitality KPIs — **RevPAR, ADR, and Occupancy** — evolve over time.
+Figure 1. Weekly trend of RevPAR, ADR, and Occupancy across the Coral Properties portfolio.  
+ADR remains relatively stable while RevPAR fluctuates with occupancy, indicating that revenue performance is primarily driven by demand rather than pricing adjustments.
+
+This chart analyzes how the three key hospitality KPIs — **RevPAR, ADR, and Occupancy** — evolve.
 
 The visualization reveals that **ADR remains relatively stable across weeks**, indicating disciplined pricing strategies across the hotel portfolio. However, **RevPAR fluctuations closely follow occupancy trends**, suggesting that changes in revenue are primarily driven by **variations in booking demand rather than pricing adjustments**.
 

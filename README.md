@@ -248,8 +248,6 @@ This section presents the core analytical insights derived from the Coral Proper
 
 ### Insight 1 — Weekly Revenue Trends
 
-### Insight 1 — Weekly Revenue Trends
-
 ![Weekly Revenue Trends](images/Trends by key Metrics.png)
 
 Figure 1. Weekly trend of RevPAR, ADR, and Occupancy across the Coral Properties portfolio.  

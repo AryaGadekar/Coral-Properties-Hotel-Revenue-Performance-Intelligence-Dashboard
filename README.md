@@ -381,7 +381,7 @@ Improving booking conversion rates and reducing cancellations can significantly 
 
 This insight highlights that **capacity optimization may be more impactful than physical expansion**.
 
-## Insight 6. Weekday vs Weekend Demand Pattern
+### Insight 6. Weekday vs Weekend Demand Pattern
 
 ![Weekday vs Weekend](images/weekday-weekend.png)
 

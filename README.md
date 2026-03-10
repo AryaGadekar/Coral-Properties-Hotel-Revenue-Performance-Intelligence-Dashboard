@@ -330,7 +330,22 @@ Understanding what drives success in top-performing properties can help replicat
 
 ![Revenue Pareto](images/revenue_pareto.png)
 
+### Insight 4 — Revenue Concentration Analysis
+
+<p align="center">
+  <img src="images/revenue-contribution-by-property.png" width="600">
+</p>
+
 **Figure 4. Revenue contribution by property**
+
+This Pareto analysis highlights how revenue is distributed across the Coral Properties portfolio. 
+A limited number of properties contribute a significant share of total revenue, indicating a 
+concentration of performance among top-performing locations.
+
+Hotels such as Coral Exotica and Coral Palace generate the largest share of revenue, while 
+other properties contribute smaller portions of the portfolio’s total income. This insight 
+helps identify which properties drive financial performance and where operational strategies 
+can be replicated to improve overall portfolio results.
 
 This Pareto chart examines how revenue is distributed across the Coral Properties portfolio.
 

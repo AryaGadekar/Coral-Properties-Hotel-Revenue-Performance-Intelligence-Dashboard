@@ -296,20 +296,23 @@ Revenue managers should aim to balance **high-ADR channels with high-realization
 
 ### Insight 3 — Property Performance Benchmark
 
-![Property Performance](images/property_scatter.png)
+<p align="center">
+  <img src="images/revpar-occupancy-matrix.png" width="600">
+</p>
 
-**Figure 3. RevPAR vs Occupancy by property**
+**Figure 3. RevPAR vs Occupancy Performance Matrix**
 
-This scatter plot compares hotel properties based on two critical performance metrics: **RevPAR and Occupancy %**.
+This chart benchmarks hotel properties using two key hospitality KPIs: RevPAR and Occupancy.  
+Each point represents a property within the Coral Properties portfolio.
 
-The visualization divides properties into performance zones:
+The vertical and horizontal reference lines represent portfolio averages, dividing the chart into four performance zones.
 
-- **High RevPAR + High Occupancy** → Top-performing properties
-- **High Occupancy + Low RevPAR** → Possible underpricing
-- **Low Occupancy + High RevPAR** → Premium pricing but weaker demand
-- **Low Occupancy + Low RevPAR** → Underperforming properties
+• **High RevPAR + High Occupancy** → top-performing properties  
+• **High RevPAR + Low Occupancy** → premium pricing but underutilized capacity  
+• **Low RevPAR + High Occupancy** → demand captured through lower pricing  
+• **Low RevPAR + Low Occupancy** → underperforming properties requiring operational review  
 
-In the analysis, **Coral Delhi emerges as the strongest-performing property**, achieving both high RevPAR and strong occupancy levels.
+This matrix highlights significant performance differences across the portfolio and helps identify properties that can serve as operational benchmarks.
 
 #### Business Interpretation
 

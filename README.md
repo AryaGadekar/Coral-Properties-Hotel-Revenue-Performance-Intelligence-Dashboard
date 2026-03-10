@@ -368,9 +368,19 @@ Diversifying revenue sources across the portfolio can improve overall resilience
 
 ### Insight 5 — Capacity Utilization
 
-![Capacity Utilization Funnel](images/capacity_funnel.png)
+<p align="center">
+  <img src="images/capacity-utilization-funnel.png" width="600">
+</p>
 
 **Figure 5. Capacity utilization funnel**
+
+This funnel chart illustrates how available room inventory converts into realized stays across the Coral Properties portfolio.
+
+The three stages represent Daily Sellable Room Nights (DSRN), Daily Booked Room Nights (DBRN), and Daily Utilized Room Nights (DURN).
+
+The gap between DSRN and DBRN highlights unused room inventory where available capacity is not being booked. The difference between DBRN and DURN reflects cancellations or no-shows, where bookings fail to convert into actual stays.
+
+Improving booking conversion rates and reducing cancellations could significantly increase revenue without expanding physical room inventory, suggesting that operational efficiency may offer stronger revenue gains than capacity expansion.
 
 This funnel chart illustrates how available room inventory converts into realized stays.
 

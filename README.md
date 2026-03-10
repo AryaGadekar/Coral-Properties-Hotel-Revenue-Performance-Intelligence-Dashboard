@@ -369,7 +369,7 @@ Diversifying revenue sources across the portfolio can improve overall resilience
 ### Insight 5 — Capacity Utilization
 
 <p align="center">
-  <img src="images/capacity-utilization-funnel.png" width="600">
+  <img src="images/Capacity Utilization Funnel.png" width="600">
 </p>
 
 **Figure 5. Capacity utilization funnel**

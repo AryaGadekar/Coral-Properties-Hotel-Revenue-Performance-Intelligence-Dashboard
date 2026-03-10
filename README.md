@@ -328,10 +328,6 @@ Understanding what drives success in top-performing properties can help replicat
 
 ### Insight 4 — Revenue Concentration Analysis
 
-![Revenue Pareto](images/revenue_pareto.png)
-
-### Insight 4 — Revenue Concentration Analysis
-
 <p align="center">
   <img src="images/revenue-contribution-by-property.png" width="600">
 </p>

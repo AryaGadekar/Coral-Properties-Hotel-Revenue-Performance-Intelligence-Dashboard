@@ -406,13 +406,18 @@ Improving booking conversion rates and reducing cancellations can significantly 
 
 This insight highlights that **capacity optimization may be more impactful than physical expansion**.
 
-### Insight 6. Weekday vs Weekend Demand Pattern
 
-![Weekday vs Weekend](images/weekday-weekend.png)
+### Insight 6 — Demand Variation Between Weekday and Weekend Periods
 
-*Figure 6. Comparison of RevPAR, ADR, and Occupancy across weekdays and weekends.*
+<p align="center">
+  <img src="images/weekday-weekend-performance.png" width="600">
+</p>
 
-This chart compares key revenue metrics across weekday and weekend periods.
+**Figure 6. Weekday vs Weekend performance comparison**
+
+The chart compares key hospitality metrics across weekday and weekend periods. While Average Daily Rate (ADR) remains relatively stable between the two periods, occupancy increases significantly during weekends, rising from approximately 51% to 74%.
+
+This increase in demand drives stronger RevPAR performance during weekends, highlighting that revenue fluctuations across the Coral Properties portfolio are primarily driven by demand changes rather than pricing adjustments.
 
 The analysis shows that **weekend performance consistently exceeds weekday performance**, with higher ADR and stronger occupancy levels.
 

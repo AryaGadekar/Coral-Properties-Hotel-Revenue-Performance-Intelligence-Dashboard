@@ -145,7 +145,7 @@ A star schema improves performance and simplifies analytical queries by keeping 
   <img src="images/Data Model.png" width="700">
 </p>
 
-This structure allows analysts and decision makers to explore performance metrics across **time, property, room type, and booking platform dimensions** while maintaining a scalable and maintainable BI architecture.
+This structure allows analysts and decision-makers to explore performance metrics across **time, property, room type, and booking platform dimensions** while maintaining a scalable and maintainable BI architecture.
 
 ---
 
